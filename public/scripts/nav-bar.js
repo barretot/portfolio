@@ -15,6 +15,6 @@ function typeWritter(texto, tempo) {
     if (!char.length) return clearInterval(typer);
     let next = char.pop();
     document.querySelector('#text').innerHTML += next;
-  }, 200);
+  }, 150);
 }
 typeWritter('Desenvolvedor Web', 'log', 100);

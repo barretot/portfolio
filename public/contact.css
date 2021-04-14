@@ -1,0 +1,53 @@
+.form-modal {
+    display: none;
+    background-color: #ffffffbb;
+    max-width: 300px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: left;
+    margin: auto;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+
+.form-modal:target {
+    display: flex;
+    outline: none;
+}
+
+a {
+    display:block;
+}
+
+.title-form, .paragrap-form {
+    margin-bottom: 10px;
+}
+
+input {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+input[type='submit'] {
+    background: #10bde4;
+    color: #fff;
+    font-weight: bold;
+    margin: auto;
+  }
+
+.close {
+    /**Classe para fechar a div, se quiser*/
+    display:inline;
+    padding-left:7px;
+    bottom: 160px;
+    left: 260px;
+    text-decoration: none;
+	color: red;
+    cursor: pointer;
+    margin-left: 245px;
+}

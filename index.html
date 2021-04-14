@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="public/scroll.css" />
     <link rel="stylesheet" href="public/nav-bar.css" />
     <link rel="stylesheet" href="public/text-image.css" />
+    <link rel="stylesheet" href="public/contact.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
@@ -18,7 +19,9 @@
   <body>
     <div id="container">
       <nav>
-        <img id="logo" src="public/images/logo.png" alt="Logo da empresa" />
+        <a href="index.html"
+          ><img id="logo" src="public/images/logo.png" alt="Logo da empresa"
+        /></a>
         <img
           class="style-toggle"
           id="menu-toggle"
@@ -29,18 +32,18 @@
           <li class="list-item">
             <a class="link-no-decoration" href="#home">Home</a>
           </li>
-          <a class="link-no-decoration" href="#about"
-            ><li class="list-item">Sobre</li></a
-          >
-          <a class="link-no-decoration" href="#services"
-            ><li class="list-item">Serviços</li></a
-          >
-          <a class="link-no-decoration" href="#skils"
-            ><li class="list-item">Conhecimentos</li></a
-          >
-          <a class="link-no-decoration" href="#contact"
-            ><li class="list-item">Contato</li></a
-          >
+          <li class="list-item">
+            <a class="link-no-decoration" href="#about">Sobre</a>
+          </li>
+          <li class="list-item">
+            <a class="link-no-decoration" href="#services">Serviços</a>
+          </li>
+          <li class="list-item">
+            <a class="link-no-decoration" href="#skils">Conhecimentos</a>
+          </li>
+          <li class="list-item">
+            <a class="link-no-decoration" href="#contact">Contato</a>
+          </li>
         </ul>
       </nav>
       <main id="description">
@@ -56,6 +59,23 @@
             pretium. Sed quis dapibus arcu. Integer vel ullamcorper metus. Duis
             suscipit ac mauris sed semper.
           </p>
+        </div>
+        <div id="contact" class="form-modal">
+          <form>
+            <a class="close" href="#">X</a>
+            <h2 class="title-form">Fale Comigo</h2>
+            <p class="paragrap-form">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+              doloribus, recusandae sapiente maxime repellendus, hic velit vel
+              nisi iure porro.
+            </p>
+            <input type="text" name="Nome" placeholder="Nome" />
+            <input type="text" name="Email" placeholder="Email" />
+            <input type="text" name="Assunto" placeholder="Assunto" />
+            <textarea rows="5" cols="22" name=""></textarea>
+            <!-- <textarea class="inputs" name="Mensagem" rows="5"> </textarea> -->
+            <input class="btn-form" type="submit" value="Enviar" />
+          </form>
         </div>
       </main>
     </div>
