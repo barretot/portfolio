@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="public/styles.css" />
     <link rel="stylesheet" href="public/scroll.css" />
     <link rel="stylesheet" href="public/nav-bar.css" />
+    <link rel="stylesheet" href="public/text-image.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
@@ -18,12 +19,28 @@
     <div id="container">
       <nav>
         <img id="logo" src="public/images/logo.png" alt="Logo da empresa" />
+        <img
+          class="style-toggle"
+          id="menu-toggle"
+          src="public/images/menu.png"
+          alt="Menu toggle"
+        />
         <ul class="nav-list">
-          <li class="list-item">Home</li>
-          <li class="list-item">Sobre</li>
-          <li class="list-item">Serviços</li>
-          <li class="list-item">Conhecimentos</li>
-          <li class="list-item">Contato</li>
+          <a class="link-no-decoration" href="#home"
+            ><li class="list-item">Home</li></a
+          >
+          <a class="link-no-decoration" href="#about"
+            ><li class="list-item">Sobre</li></a
+          >
+          <a class="link-no-decoration" href="#services"
+            ><li class="list-item">Serviços</li></a
+          >
+          <a class="link-no-decoration" href="#skils"
+            ><li class="list-item">Conhecimentos</li></a
+          >
+          <a class="link-no-decoration" href="#contact"
+            ><li class="list-item">Contato</li></a
+          >
         </ul>
       </nav>
       <main id="description">
