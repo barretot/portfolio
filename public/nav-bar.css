@@ -97,3 +97,11 @@ nav {
 		display: none;
 	}
 }
+
+@media(max-width: 3000px){
+	.nav-list {
+		display: flex;
+		margin: 1600px;
+		font-weight: 300;
+	}
+}
