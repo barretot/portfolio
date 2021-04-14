@@ -3,7 +3,7 @@ nav {
 	align-items: center;  
 	position: fixed;
 	height: 50px;
-	width: 100%;
+	width: 99%;
 	background-color: #fff;
 	border: 1px solid #ccc
 }
@@ -34,9 +34,11 @@ nav {
 	color: inherit;
 }
 
-.list-item:hover {
-   border-bottom: solid;
+.selected {
+	border-bottom: solid;
+	margin-bottom: 10px;
 }
+
 
 .style-toggle {
 	background-repeat: no-repeat;
@@ -76,10 +78,6 @@ nav {
 		list-style-type: none;
 		font-size: 14px;
 		font-weight: 100px;
-	}
-	
-	.list-item:hover {
-		border-bottom: solid;
 	}
 	
 	.style-toggle {
