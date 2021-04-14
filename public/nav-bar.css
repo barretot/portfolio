@@ -98,7 +98,7 @@ nav {
 	}
 }
 
-@media(max-width: 3000px){
+@media(min-width: 3000px){
 	.nav-list {
 		display: flex;
 		margin: 1600px;
