@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    align-items: center;  
+    position: fixed;
+    height: 63px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc
+}
+
+#logo {
+    width: 120px;
+    margin: 100px;
+    margin-top: 110px;
+}
+
+.nav-list {
+    display: flex;
+    margin: 350px;
+    font-weight: 300;
+}
+
+.list-item {
+    cursor: pointer;
+    margin: 30px;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 100px;
+}
+
+.list-item:hover {
+    border-bottom: solid;
+}
